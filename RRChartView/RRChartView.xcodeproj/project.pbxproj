@@ -47,6 +47,7 @@
 		E35E2D611DE69EBA00DF4DF7 /* WYChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D601DE69EBA00DF4DF7 /* WYChartViewController.m */; };
 		E35E2D641DE6A24500DF4DF7 /* GtChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D631DE6A24500DF4DF7 /* GtChartViewController.m */; };
 		E35E2D681DE6AC9F00DF4DF7 /* wybdata.plist in Resources */ = {isa = PBXBuildFile; fileRef = E35E2D671DE6AC9F00DF4DF7 /* wybdata.plist */; };
+		E35E2D6A1DE6D25800DF4DF7 /* test5.gif in Resources */ = {isa = PBXBuildFile; fileRef = E35E2D691DE6D25800DF4DF7 /* test5.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,6 +149,7 @@
 		E35E2D621DE6A24500DF4DF7 /* GtChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GtChartViewController.h; sourceTree = "<group>"; };
 		E35E2D631DE6A24500DF4DF7 /* GtChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GtChartViewController.m; sourceTree = "<group>"; };
 		E35E2D671DE6AC9F00DF4DF7 /* wybdata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = wybdata.plist; sourceTree = "<group>"; };
+		E35E2D691DE6D25800DF4DF7 /* test5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = test5.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +230,7 @@
 		E35E2CCD1DE6952C00DF4DF7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E35E2D691DE6D25800DF4DF7 /* test5.gif */,
 				E35E2D671DE6AC9F00DF4DF7 /* wybdata.plist */,
 				E35E2D2C1DE69A1C00DF4DF7 /* dataList.plist */,
 				E35E2D2E1DE69A2100DF4DF7 /* wydata.plist */,
@@ -431,6 +434,7 @@
 			files = (
 				E35E2D4D1DE69A6400DF4DF7 /* LICENSE in Resources */,
 				E35E2CE01DE6952C00DF4DF7 /* LaunchScreen.storyboard in Resources */,
+				E35E2D6A1DE6D25800DF4DF7 /* test5.gif in Resources */,
 				E35E2CDD1DE6952C00DF4DF7 /* Assets.xcassets in Resources */,
 				E35E2D2D1DE69A1C00DF4DF7 /* dataList.plist in Resources */,
 				E35E2D2F1DE69A2100DF4DF7 /* wydata.plist in Resources */,
@@ -716,6 +720,7 @@
 				E35E2CFC1DE6952C00DF4DF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E35E2CFD1DE6952C00DF4DF7 /* Build configuration list for PBXNativeTarget "RRChartViewTests" */ = {
 			isa = XCConfigurationList;
@@ -724,6 +729,7 @@
 				E35E2CFF1DE6952C00DF4DF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E35E2D001DE6952C00DF4DF7 /* Build configuration list for PBXNativeTarget "RRChartViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -732,6 +738,7 @@
 				E35E2D021DE6952C00DF4DF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
