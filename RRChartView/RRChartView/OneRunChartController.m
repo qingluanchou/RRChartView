@@ -36,7 +36,6 @@
     self.navigationItem.title = @"当月hs300变化曲线";
     self.view.backgroundColor = [UIColor whiteColor];
     NSString *path = [[NSBundle mainBundle] pathForResource:@"wybdata" ofType:@"plist"];
-    //NSString *path = [[NSBundle mainBundle] pathForResource:@"wydata" ofType:@"plist"];
     NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
     NSArray *data = [dict objectForKey:@"data"];
     NSArray *productList = [ProductChart getProductChartList:data];
