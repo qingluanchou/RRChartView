@@ -52,6 +52,7 @@
             [contentArray addObject:pc];
         }
     }];
+    
     CustomLabel *titleLabel = [CustomLabel setCustomLabelText:@"沪深300指数" font:14 textColor:[UIColor colorWithRed:51/255.0 green:51/255.0  blue:51/255.0  alpha:1.0]];
     [self.view addSubview:titleLabel];
     WEAKSELF(weakSelf);
