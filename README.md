@@ -2,7 +2,8 @@
 
 ![Mou icon](https://raw.githubusercontent.com/qingluanchou/RRChartView/master/RRChartView/RRChartView/test5.gif)
 
-## RRChart 集成RRChart可以快速地完成各种的复杂曲线的绘制，喜欢的同学，记得给小星星哦。
+## RRChart 
+###集成RRChart可以快速地完成各种的复杂曲线的绘制，喜欢的同学，记得给小星星哦。
 
 #### RRGridChart
 
