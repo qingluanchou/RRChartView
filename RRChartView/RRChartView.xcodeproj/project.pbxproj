@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E35E2CCF1DE6952C00DF4DF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2CCE1DE6952C00DF4DF7 /* main.m */; };
+		E35E2CD21DE6952C00DF4DF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2CD11DE6952C00DF4DF7 /* AppDelegate.m */; };
+		E35E2CD51DE6952C00DF4DF7 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2CD41DE6952C00DF4DF7 /* MasterViewController.m */; };
+		E35E2CD81DE6952C00DF4DF7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2CD71DE6952C00DF4DF7 /* DetailViewController.m */; };
+		E35E2CDB1DE6952C00DF4DF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35E2CD91DE6952C00DF4DF7 /* Main.storyboard */; };
+		E35E2CDD1DE6952C00DF4DF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E35E2CDC1DE6952C00DF4DF7 /* Assets.xcassets */; };
+		E35E2CE01DE6952C00DF4DF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35E2CDE1DE6952C00DF4DF7 /* LaunchScreen.storyboard */; };
+		E35E2CEB1DE6952C00DF4DF7 /* RRChartViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2CEA1DE6952C00DF4DF7 /* RRChartViewTests.m */; };
+		E35E2CF61DE6952C00DF4DF7 /* RRChartViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2CF51DE6952C00DF4DF7 /* RRChartViewUITests.m */; };
+		E35E2D1B1DE699A900DF4DF7 /* RRBaseChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D051DE699A900DF4DF7 /* RRBaseChartView.m */; };
+		E35E2D1C1DE699A900DF4DF7 /* RRBaseData.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D071DE699A900DF4DF7 /* RRBaseData.m */; };
+		E35E2D1D1DE699A900DF4DF7 /* RRGridChart.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D091DE699A900DF4DF7 /* RRGridChart.m */; };
+		E35E2D1E1DE699A900DF4DF7 /* RRLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D0C1DE699A900DF4DF7 /* RRLineChart.m */; };
+		E35E2D1F1DE699A900DF4DF7 /* RRLineData.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D0E1DE699A900DF4DF7 /* RRLineData.m */; };
+		E35E2D201DE699A900DF4DF7 /* RRMAStickChart.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D101DE699A900DF4DF7 /* RRMAStickChart.m */; };
+		E35E2D211DE699A900DF4DF7 /* RRStickChart.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D121DE699A900DF4DF7 /* RRStickChart.m */; };
+		E35E2D221DE699A900DF4DF7 /* RRStickChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D141DE699A900DF4DF7 /* RRStickChartData.m */; };
+		E35E2D231DE699A900DF4DF7 /* RRTitledLine.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D161DE699A900DF4DF7 /* RRTitledLine.m */; };
+		E35E2D241DE699A900DF4DF7 /* UIBezierPath+curved.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D181DE699A900DF4DF7 /* UIBezierPath+curved.m */; };
+		E35E2D251DE699A900DF4DF7 /* UIColor+RRChart.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D1A1DE699A900DF4DF7 /* UIColor+RRChart.m */; };
+		E35E2D2B1DE699FA00DF4DF7 /* OneRunChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D2A1DE699FA00DF4DF7 /* OneRunChartController.m */; };
+		E35E2D2D1DE69A1C00DF4DF7 /* dataList.plist in Resources */ = {isa = PBXBuildFile; fileRef = E35E2D2C1DE69A1C00DF4DF7 /* dataList.plist */; };
+		E35E2D2F1DE69A2100DF4DF7 /* wydata.plist in Resources */ = {isa = PBXBuildFile; fileRef = E35E2D2E1DE69A2100DF4DF7 /* wydata.plist */; };
+		E35E2D4D1DE69A6400DF4DF7 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E35E2D311DE69A6400DF4DF7 /* LICENSE */; };
+		E35E2D4E1DE69A6400DF4DF7 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D341DE69A6400DF4DF7 /* MASCompositeConstraint.m */; };
+		E35E2D4F1DE69A6400DF4DF7 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D371DE69A6400DF4DF7 /* MASConstraint.m */; };
+		E35E2D501DE69A6400DF4DF7 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D391DE69A6400DF4DF7 /* MASConstraintMaker.m */; };
+		E35E2D511DE69A6400DF4DF7 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D3B1DE69A6400DF4DF7 /* MASLayoutConstraint.m */; };
+		E35E2D521DE69A6400DF4DF7 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D3F1DE69A6400DF4DF7 /* MASViewAttribute.m */; };
+		E35E2D531DE69A6400DF4DF7 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D411DE69A6400DF4DF7 /* MASViewConstraint.m */; };
+		E35E2D541DE69A6400DF4DF7 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D431DE69A6400DF4DF7 /* NSArray+MASAdditions.m */; };
+		E35E2D551DE69A6400DF4DF7 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D461DE69A6400DF4DF7 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		E35E2D561DE69A6400DF4DF7 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D481DE69A6400DF4DF7 /* View+MASAdditions.m */; };
+		E35E2D571DE69A6400DF4DF7 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D4B1DE69A6400DF4DF7 /* ViewController+MASAdditions.m */; };
+		E35E2D581DE69A6400DF4DF7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D4C1DE69A6400DF4DF7 /* README.md */; };
+		E35E2D5B1DE69BD100DF4DF7 /* ProductChart.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D5A1DE69BD100DF4DF7 /* ProductChart.m */; };
+		E35E2D5E1DE69D5100DF4DF7 /* CustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D5D1DE69D5100DF4DF7 /* CustomLabel.m */; };
+		E35E2D611DE69EBA00DF4DF7 /* WYChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D601DE69EBA00DF4DF7 /* WYChartViewController.m */; };
+		E35E2D641DE6A24500DF4DF7 /* GtChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E2D631DE6A24500DF4DF7 /* GtChartViewController.m */; };
+		E35E2D681DE6AC9F00DF4DF7 /* wybdata.plist in Resources */ = {isa = PBXBuildFile; fileRef = E35E2D671DE6AC9F00DF4DF7 /* wybdata.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E35E2CE71DE6952C00DF4DF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E35E2CC21DE6952C00DF4DF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E35E2CC91DE6952C00DF4DF7;
+			remoteInfo = RRChartView;
+		};
+		E35E2CF21DE6952C00DF4DF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E35E2CC21DE6952C00DF4DF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E35E2CC91DE6952C00DF4DF7;
+			remoteInfo = RRChartView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E35E2CCA1DE6952C00DF4DF7 /* RRChartView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RRChartView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35E2CCE1DE6952C00DF4DF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E35E2CD01DE6952C00DF4DF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E35E2CD11DE6952C00DF4DF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E35E2CD31DE6952C00DF4DF7 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		E35E2CD41DE6952C00DF4DF7 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		E35E2CD61DE6952C00DF4DF7 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E35E2CD71DE6952C00DF4DF7 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E35E2CDA1DE6952C00DF4DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E35E2CDC1DE6952C00DF4DF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E35E2CDF1DE6952C00DF4DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E35E2CE11DE6952C00DF4DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35E2CE61DE6952C00DF4DF7 /* RRChartViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRChartViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35E2CEA1DE6952C00DF4DF7 /* RRChartViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRChartViewTests.m; sourceTree = "<group>"; };
+		E35E2CEC1DE6952C00DF4DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35E2CF11DE6952C00DF4DF7 /* RRChartViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRChartViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35E2CF51DE6952C00DF4DF7 /* RRChartViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRChartViewUITests.m; sourceTree = "<group>"; };
+		E35E2CF71DE6952C00DF4DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35E2D041DE699A900DF4DF7 /* RRBaseChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRBaseChartView.h; sourceTree = "<group>"; };
+		E35E2D051DE699A900DF4DF7 /* RRBaseChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRBaseChartView.m; sourceTree = "<group>"; };
+		E35E2D061DE699A900DF4DF7 /* RRBaseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRBaseData.h; sourceTree = "<group>"; };
+		E35E2D071DE699A900DF4DF7 /* RRBaseData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRBaseData.m; sourceTree = "<group>"; };
+		E35E2D081DE699A900DF4DF7 /* RRGridChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRGridChart.h; sourceTree = "<group>"; };
+		E35E2D091DE699A900DF4DF7 /* RRGridChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRGridChart.m; sourceTree = "<group>"; };
+		E35E2D0A1DE699A900DF4DF7 /* RRHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRHeader.h; sourceTree = "<group>"; };
+		E35E2D0B1DE699A900DF4DF7 /* RRLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRLineChart.h; sourceTree = "<group>"; };
+		E35E2D0C1DE699A900DF4DF7 /* RRLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRLineChart.m; sourceTree = "<group>"; };
+		E35E2D0D1DE699A900DF4DF7 /* RRLineData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRLineData.h; sourceTree = "<group>"; };
+		E35E2D0E1DE699A900DF4DF7 /* RRLineData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRLineData.m; sourceTree = "<group>"; };
+		E35E2D0F1DE699A900DF4DF7 /* RRMAStickChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRMAStickChart.h; sourceTree = "<group>"; };
+		E35E2D101DE699A900DF4DF7 /* RRMAStickChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRMAStickChart.m; sourceTree = "<group>"; };
+		E35E2D111DE699A900DF4DF7 /* RRStickChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRStickChart.h; sourceTree = "<group>"; };
+		E35E2D121DE699A900DF4DF7 /* RRStickChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRStickChart.m; sourceTree = "<group>"; };
+		E35E2D131DE699A900DF4DF7 /* RRStickChartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRStickChartData.h; sourceTree = "<group>"; };
+		E35E2D141DE699A900DF4DF7 /* RRStickChartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRStickChartData.m; sourceTree = "<group>"; };
+		E35E2D151DE699A900DF4DF7 /* RRTitledLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRTitledLine.h; sourceTree = "<group>"; };
+		E35E2D161DE699A900DF4DF7 /* RRTitledLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRTitledLine.m; sourceTree = "<group>"; };
+		E35E2D171DE699A900DF4DF7 /* UIBezierPath+curved.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+curved.h"; sourceTree = "<group>"; };
+		E35E2D181DE699A900DF4DF7 /* UIBezierPath+curved.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+curved.m"; sourceTree = "<group>"; };
+		E35E2D191DE699A900DF4DF7 /* UIColor+RRChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RRChart.h"; sourceTree = "<group>"; };
+		E35E2D1A1DE699A900DF4DF7 /* UIColor+RRChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RRChart.m"; sourceTree = "<group>"; };
+		E35E2D291DE699FA00DF4DF7 /* OneRunChartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneRunChartController.h; sourceTree = "<group>"; };
+		E35E2D2A1DE699FA00DF4DF7 /* OneRunChartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneRunChartController.m; sourceTree = "<group>"; };
+		E35E2D2C1DE69A1C00DF4DF7 /* dataList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dataList.plist; sourceTree = "<group>"; };
+		E35E2D2E1DE69A2100DF4DF7 /* wydata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = wydata.plist; sourceTree = "<group>"; };
+		E35E2D311DE69A6400DF4DF7 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E35E2D331DE69A6400DF4DF7 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		E35E2D341DE69A6400DF4DF7 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		E35E2D351DE69A6400DF4DF7 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		E35E2D361DE69A6400DF4DF7 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		E35E2D371DE69A6400DF4DF7 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		E35E2D381DE69A6400DF4DF7 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		E35E2D391DE69A6400DF4DF7 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		E35E2D3A1DE69A6400DF4DF7 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		E35E2D3B1DE69A6400DF4DF7 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		E35E2D3C1DE69A6400DF4DF7 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		E35E2D3D1DE69A6400DF4DF7 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		E35E2D3E1DE69A6400DF4DF7 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		E35E2D3F1DE69A6400DF4DF7 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		E35E2D401DE69A6400DF4DF7 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		E35E2D411DE69A6400DF4DF7 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		E35E2D421DE69A6400DF4DF7 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		E35E2D431DE69A6400DF4DF7 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		E35E2D441DE69A6400DF4DF7 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		E35E2D451DE69A6400DF4DF7 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		E35E2D461DE69A6400DF4DF7 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		E35E2D471DE69A6400DF4DF7 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		E35E2D481DE69A6400DF4DF7 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		E35E2D491DE69A6400DF4DF7 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		E35E2D4A1DE69A6400DF4DF7 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		E35E2D4B1DE69A6400DF4DF7 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		E35E2D4C1DE69A6400DF4DF7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E35E2D591DE69BD100DF4DF7 /* ProductChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductChart.h; sourceTree = "<group>"; };
+		E35E2D5A1DE69BD100DF4DF7 /* ProductChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductChart.m; sourceTree = "<group>"; };
+		E35E2D5C1DE69D5100DF4DF7 /* CustomLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLabel.h; sourceTree = "<group>"; };
+		E35E2D5D1DE69D5100DF4DF7 /* CustomLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLabel.m; sourceTree = "<group>"; };
+		E35E2D5F1DE69EBA00DF4DF7 /* WYChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYChartViewController.h; sourceTree = "<group>"; };
+		E35E2D601DE69EBA00DF4DF7 /* WYChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYChartViewController.m; sourceTree = "<group>"; };
+		E35E2D621DE6A24500DF4DF7 /* GtChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GtChartViewController.h; sourceTree = "<group>"; };
+		E35E2D631DE6A24500DF4DF7 /* GtChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GtChartViewController.m; sourceTree = "<group>"; };
+		E35E2D671DE6AC9F00DF4DF7 /* wybdata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = wybdata.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E35E2CC71DE6952C00DF4DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35E2CE31DE6952C00DF4DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35E2CEE1DE6952C00DF4DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E35E2CC11DE6952C00DF4DF7 = {
+			isa = PBXGroup;
+			children = (
+				E35E2CCC1DE6952C00DF4DF7 /* RRChartView */,
+				E35E2CE91DE6952C00DF4DF7 /* RRChartViewTests */,
+				E35E2CF41DE6952C00DF4DF7 /* RRChartViewUITests */,
+				E35E2CCB1DE6952C00DF4DF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E35E2CCB1DE6952C00DF4DF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E35E2CCA1DE6952C00DF4DF7 /* RRChartView.app */,
+				E35E2CE61DE6952C00DF4DF7 /* RRChartViewTests.xctest */,
+				E35E2CF11DE6952C00DF4DF7 /* RRChartViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E35E2CCC1DE6952C00DF4DF7 /* RRChartView */ = {
+			isa = PBXGroup;
+			children = (
+				E35E2D301DE69A6400DF4DF7 /* Masonry */,
+				E35E2D031DE699A900DF4DF7 /* gtChart */,
+				E35E2CD01DE6952C00DF4DF7 /* AppDelegate.h */,
+				E35E2CD11DE6952C00DF4DF7 /* AppDelegate.m */,
+				E35E2D5C1DE69D5100DF4DF7 /* CustomLabel.h */,
+				E35E2D5D1DE69D5100DF4DF7 /* CustomLabel.m */,
+				E35E2D591DE69BD100DF4DF7 /* ProductChart.h */,
+				E35E2D5A1DE69BD100DF4DF7 /* ProductChart.m */,
+				E35E2D291DE699FA00DF4DF7 /* OneRunChartController.h */,
+				E35E2D2A1DE699FA00DF4DF7 /* OneRunChartController.m */,
+				E35E2D621DE6A24500DF4DF7 /* GtChartViewController.h */,
+				E35E2D631DE6A24500DF4DF7 /* GtChartViewController.m */,
+				E35E2D5F1DE69EBA00DF4DF7 /* WYChartViewController.h */,
+				E35E2D601DE69EBA00DF4DF7 /* WYChartViewController.m */,
+				E35E2CD31DE6952C00DF4DF7 /* MasterViewController.h */,
+				E35E2CD41DE6952C00DF4DF7 /* MasterViewController.m */,
+				E35E2CD61DE6952C00DF4DF7 /* DetailViewController.h */,
+				E35E2CD71DE6952C00DF4DF7 /* DetailViewController.m */,
+				E35E2CD91DE6952C00DF4DF7 /* Main.storyboard */,
+				E35E2CDC1DE6952C00DF4DF7 /* Assets.xcassets */,
+				E35E2CDE1DE6952C00DF4DF7 /* LaunchScreen.storyboard */,
+				E35E2CE11DE6952C00DF4DF7 /* Info.plist */,
+				E35E2CCD1DE6952C00DF4DF7 /* Supporting Files */,
+			);
+			path = RRChartView;
+			sourceTree = "<group>";
+		};
+		E35E2CCD1DE6952C00DF4DF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E35E2D671DE6AC9F00DF4DF7 /* wybdata.plist */,
+				E35E2D2C1DE69A1C00DF4DF7 /* dataList.plist */,
+				E35E2D2E1DE69A2100DF4DF7 /* wydata.plist */,
+				E35E2CCE1DE6952C00DF4DF7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E35E2CE91DE6952C00DF4DF7 /* RRChartViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E35E2CEA1DE6952C00DF4DF7 /* RRChartViewTests.m */,
+				E35E2CEC1DE6952C00DF4DF7 /* Info.plist */,
+			);
+			path = RRChartViewTests;
+			sourceTree = "<group>";
+		};
+		E35E2CF41DE6952C00DF4DF7 /* RRChartViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E35E2CF51DE6952C00DF4DF7 /* RRChartViewUITests.m */,
+				E35E2CF71DE6952C00DF4DF7 /* Info.plist */,
+			);
+			path = RRChartViewUITests;
+			sourceTree = "<group>";
+		};
+		E35E2D031DE699A900DF4DF7 /* gtChart */ = {
+			isa = PBXGroup;
+			children = (
+				E35E2D041DE699A900DF4DF7 /* RRBaseChartView.h */,
+				E35E2D051DE699A900DF4DF7 /* RRBaseChartView.m */,
+				E35E2D061DE699A900DF4DF7 /* RRBaseData.h */,
+				E35E2D071DE699A900DF4DF7 /* RRBaseData.m */,
+				E35E2D081DE699A900DF4DF7 /* RRGridChart.h */,
+				E35E2D091DE699A900DF4DF7 /* RRGridChart.m */,
+				E35E2D0A1DE699A900DF4DF7 /* RRHeader.h */,
+				E35E2D0B1DE699A900DF4DF7 /* RRLineChart.h */,
+				E35E2D0C1DE699A900DF4DF7 /* RRLineChart.m */,
+				E35E2D0D1DE699A900DF4DF7 /* RRLineData.h */,
+				E35E2D0E1DE699A900DF4DF7 /* RRLineData.m */,
+				E35E2D0F1DE699A900DF4DF7 /* RRMAStickChart.h */,
+				E35E2D101DE699A900DF4DF7 /* RRMAStickChart.m */,
+				E35E2D111DE699A900DF4DF7 /* RRStickChart.h */,
+				E35E2D121DE699A900DF4DF7 /* RRStickChart.m */,
+				E35E2D131DE699A900DF4DF7 /* RRStickChartData.h */,
+				E35E2D141DE699A900DF4DF7 /* RRStickChartData.m */,
+				E35E2D151DE699A900DF4DF7 /* RRTitledLine.h */,
+				E35E2D161DE699A900DF4DF7 /* RRTitledLine.m */,
+				E35E2D171DE699A900DF4DF7 /* UIBezierPath+curved.h */,
+				E35E2D181DE699A900DF4DF7 /* UIBezierPath+curved.m */,
+				E35E2D191DE699A900DF4DF7 /* UIColor+RRChart.h */,
+				E35E2D1A1DE699A900DF4DF7 /* UIColor+RRChart.m */,
+			);
+			path = gtChart;
+			sourceTree = "<group>";
+		};
+		E35E2D301DE69A6400DF4DF7 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				E35E2D311DE69A6400DF4DF7 /* LICENSE */,
+				E35E2D321DE69A6400DF4DF7 /* Masonry */,
+				E35E2D4C1DE69A6400DF4DF7 /* README.md */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		E35E2D321DE69A6400DF4DF7 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				E35E2D331DE69A6400DF4DF7 /* MASCompositeConstraint.h */,
+				E35E2D341DE69A6400DF4DF7 /* MASCompositeConstraint.m */,
+				E35E2D351DE69A6400DF4DF7 /* MASConstraint+Private.h */,
+				E35E2D361DE69A6400DF4DF7 /* MASConstraint.h */,
+				E35E2D371DE69A6400DF4DF7 /* MASConstraint.m */,
+				E35E2D381DE69A6400DF4DF7 /* MASConstraintMaker.h */,
+				E35E2D391DE69A6400DF4DF7 /* MASConstraintMaker.m */,
+				E35E2D3A1DE69A6400DF4DF7 /* MASLayoutConstraint.h */,
+				E35E2D3B1DE69A6400DF4DF7 /* MASLayoutConstraint.m */,
+				E35E2D3C1DE69A6400DF4DF7 /* Masonry.h */,
+				E35E2D3D1DE69A6400DF4DF7 /* MASUtilities.h */,
+				E35E2D3E1DE69A6400DF4DF7 /* MASViewAttribute.h */,
+				E35E2D3F1DE69A6400DF4DF7 /* MASViewAttribute.m */,
+				E35E2D401DE69A6400DF4DF7 /* MASViewConstraint.h */,
+				E35E2D411DE69A6400DF4DF7 /* MASViewConstraint.m */,
+				E35E2D421DE69A6400DF4DF7 /* NSArray+MASAdditions.h */,
+				E35E2D431DE69A6400DF4DF7 /* NSArray+MASAdditions.m */,
+				E35E2D441DE69A6400DF4DF7 /* NSArray+MASShorthandAdditions.h */,
+				E35E2D451DE69A6400DF4DF7 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				E35E2D461DE69A6400DF4DF7 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				E35E2D471DE69A6400DF4DF7 /* View+MASAdditions.h */,
+				E35E2D481DE69A6400DF4DF7 /* View+MASAdditions.m */,
+				E35E2D491DE69A6400DF4DF7 /* View+MASShorthandAdditions.h */,
+				E35E2D4A1DE69A6400DF4DF7 /* ViewController+MASAdditions.h */,
+				E35E2D4B1DE69A6400DF4DF7 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E35E2CC91DE6952C00DF4DF7 /* RRChartView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E35E2CFA1DE6952C00DF4DF7 /* Build configuration list for PBXNativeTarget "RRChartView" */;
+			buildPhases = (
+				E35E2CC61DE6952C00DF4DF7 /* Sources */,
+				E35E2CC71DE6952C00DF4DF7 /* Frameworks */,
+				E35E2CC81DE6952C00DF4DF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RRChartView;
+			productName = RRChartView;
+			productReference = E35E2CCA1DE6952C00DF4DF7 /* RRChartView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E35E2CE51DE6952C00DF4DF7 /* RRChartViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E35E2CFD1DE6952C00DF4DF7 /* Build configuration list for PBXNativeTarget "RRChartViewTests" */;
+			buildPhases = (
+				E35E2CE21DE6952C00DF4DF7 /* Sources */,
+				E35E2CE31DE6952C00DF4DF7 /* Frameworks */,
+				E35E2CE41DE6952C00DF4DF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E35E2CE81DE6952C00DF4DF7 /* PBXTargetDependency */,
+			);
+			name = RRChartViewTests;
+			productName = RRChartViewTests;
+			productReference = E35E2CE61DE6952C00DF4DF7 /* RRChartViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E35E2CF01DE6952C00DF4DF7 /* RRChartViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E35E2D001DE6952C00DF4DF7 /* Build configuration list for PBXNativeTarget "RRChartViewUITests" */;
+			buildPhases = (
+				E35E2CED1DE6952C00DF4DF7 /* Sources */,
+				E35E2CEE1DE6952C00DF4DF7 /* Frameworks */,
+				E35E2CEF1DE6952C00DF4DF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E35E2CF31DE6952C00DF4DF7 /* PBXTargetDependency */,
+			);
+			name = RRChartViewUITests;
+			productName = RRChartViewUITests;
+			productReference = E35E2CF11DE6952C00DF4DF7 /* RRChartViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E35E2CC21DE6952C00DF4DF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = liang;
+				TargetAttributes = {
+					E35E2CC91DE6952C00DF4DF7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					E35E2CE51DE6952C00DF4DF7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E35E2CC91DE6952C00DF4DF7;
+					};
+					E35E2CF01DE6952C00DF4DF7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E35E2CC91DE6952C00DF4DF7;
+					};
+				};
+			};
+			buildConfigurationList = E35E2CC51DE6952C00DF4DF7 /* Build configuration list for PBXProject "RRChartView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E35E2CC11DE6952C00DF4DF7;
+			productRefGroup = E35E2CCB1DE6952C00DF4DF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E35E2CC91DE6952C00DF4DF7 /* RRChartView */,
+				E35E2CE51DE6952C00DF4DF7 /* RRChartViewTests */,
+				E35E2CF01DE6952C00DF4DF7 /* RRChartViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E35E2CC81DE6952C00DF4DF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35E2D4D1DE69A6400DF4DF7 /* LICENSE in Resources */,
+				E35E2CE01DE6952C00DF4DF7 /* LaunchScreen.storyboard in Resources */,
+				E35E2CDD1DE6952C00DF4DF7 /* Assets.xcassets in Resources */,
+				E35E2D2D1DE69A1C00DF4DF7 /* dataList.plist in Resources */,
+				E35E2D2F1DE69A2100DF4DF7 /* wydata.plist in Resources */,
+				E35E2CDB1DE6952C00DF4DF7 /* Main.storyboard in Resources */,
+				E35E2D681DE6AC9F00DF4DF7 /* wybdata.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35E2CE41DE6952C00DF4DF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35E2CEF1DE6952C00DF4DF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E35E2CC61DE6952C00DF4DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35E2D4F1DE69A6400DF4DF7 /* MASConstraint.m in Sources */,
+				E35E2D521DE69A6400DF4DF7 /* MASViewAttribute.m in Sources */,
+				E35E2D501DE69A6400DF4DF7 /* MASConstraintMaker.m in Sources */,
+				E35E2D1B1DE699A900DF4DF7 /* RRBaseChartView.m in Sources */,
+				E35E2D1F1DE699A900DF4DF7 /* RRLineData.m in Sources */,
+				E35E2D641DE6A24500DF4DF7 /* GtChartViewController.m in Sources */,
+				E35E2CD21DE6952C00DF4DF7 /* AppDelegate.m in Sources */,
+				E35E2D1C1DE699A900DF4DF7 /* RRBaseData.m in Sources */,
+				E35E2D531DE69A6400DF4DF7 /* MASViewConstraint.m in Sources */,
+				E35E2D561DE69A6400DF4DF7 /* View+MASAdditions.m in Sources */,
+				E35E2D4E1DE69A6400DF4DF7 /* MASCompositeConstraint.m in Sources */,
+				E35E2D581DE69A6400DF4DF7 /* README.md in Sources */,
+				E35E2D611DE69EBA00DF4DF7 /* WYChartViewController.m in Sources */,
+				E35E2CD51DE6952C00DF4DF7 /* MasterViewController.m in Sources */,
+				E35E2D201DE699A900DF4DF7 /* RRMAStickChart.m in Sources */,
+				E35E2D1D1DE699A900DF4DF7 /* RRGridChart.m in Sources */,
+				E35E2D511DE69A6400DF4DF7 /* MASLayoutConstraint.m in Sources */,
+				E35E2D251DE699A900DF4DF7 /* UIColor+RRChart.m in Sources */,
+				E35E2D221DE699A900DF4DF7 /* RRStickChartData.m in Sources */,
+				E35E2D241DE699A900DF4DF7 /* UIBezierPath+curved.m in Sources */,
+				E35E2CCF1DE6952C00DF4DF7 /* main.m in Sources */,
+				E35E2D5B1DE69BD100DF4DF7 /* ProductChart.m in Sources */,
+				E35E2D211DE699A900DF4DF7 /* RRStickChart.m in Sources */,
+				E35E2D551DE69A6400DF4DF7 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				E35E2D1E1DE699A900DF4DF7 /* RRLineChart.m in Sources */,
+				E35E2CD81DE6952C00DF4DF7 /* DetailViewController.m in Sources */,
+				E35E2D541DE69A6400DF4DF7 /* NSArray+MASAdditions.m in Sources */,
+				E35E2D571DE69A6400DF4DF7 /* ViewController+MASAdditions.m in Sources */,
+				E35E2D2B1DE699FA00DF4DF7 /* OneRunChartController.m in Sources */,
+				E35E2D231DE699A900DF4DF7 /* RRTitledLine.m in Sources */,
+				E35E2D5E1DE69D5100DF4DF7 /* CustomLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35E2CE21DE6952C00DF4DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35E2CEB1DE6952C00DF4DF7 /* RRChartViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35E2CED1DE6952C00DF4DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35E2CF61DE6952C00DF4DF7 /* RRChartViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E35E2CE81DE6952C00DF4DF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E35E2CC91DE6952C00DF4DF7 /* RRChartView */;
+			targetProxy = E35E2CE71DE6952C00DF4DF7 /* PBXContainerItemProxy */;
+		};
+		E35E2CF31DE6952C00DF4DF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E35E2CC91DE6952C00DF4DF7 /* RRChartView */;
+			targetProxy = E35E2CF21DE6952C00DF4DF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E35E2CD91DE6952C00DF4DF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E35E2CDA1DE6952C00DF4DF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E35E2CDE1DE6952C00DF4DF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E35E2CDF1DE6952C00DF4DF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E35E2CF81DE6952C00DF4DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E35E2CF91DE6952C00DF4DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E35E2CFB1DE6952C00DF4DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RRChartView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeng.RRChartView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E35E2CFC1DE6952C00DF4DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RRChartView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeng.RRChartView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E35E2CFE1DE6952C00DF4DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RRChartViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeng.RRChartViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RRChartView.app/RRChartView";
+			};
+			name = Debug;
+		};
+		E35E2CFF1DE6952C00DF4DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RRChartViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeng.RRChartViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RRChartView.app/RRChartView";
+			};
+			name = Release;
+		};
+		E35E2D011DE6952C00DF4DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RRChartViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeng.RRChartViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RRChartView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E35E2D021DE6952C00DF4DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RRChartViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeng.RRChartViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RRChartView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E35E2CC51DE6952C00DF4DF7 /* Build configuration list for PBXProject "RRChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35E2CF81DE6952C00DF4DF7 /* Debug */,
+				E35E2CF91DE6952C00DF4DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E35E2CFA1DE6952C00DF4DF7 /* Build configuration list for PBXNativeTarget "RRChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35E2CFB1DE6952C00DF4DF7 /* Debug */,
+				E35E2CFC1DE6952C00DF4DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E35E2CFD1DE6952C00DF4DF7 /* Build configuration list for PBXNativeTarget "RRChartViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35E2CFE1DE6952C00DF4DF7 /* Debug */,
+				E35E2CFF1DE6952C00DF4DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E35E2D001DE6952C00DF4DF7 /* Build configuration list for PBXNativeTarget "RRChartViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35E2D011DE6952C00DF4DF7 /* Debug */,
+				E35E2D021DE6952C00DF4DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E35E2CC21DE6952C00DF4DF7 /* Project object */;
+}
